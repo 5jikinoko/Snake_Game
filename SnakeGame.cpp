@@ -163,7 +163,7 @@ START:
 {   
     erase();
     draw_flame();
-    frequency = 100000;
+    frequency = 1000;
     timeout(frequency);
     snakesize = baby_snakesize;
     eggnum = maxeggnum;
